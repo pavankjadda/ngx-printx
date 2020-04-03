@@ -1,17 +1,17 @@
 {
-  "name": "ngx-print",
-  "version": "1.2.0-beta.4",
-  "description": "Plug n' Play Angular (2++) directive to print your stuff",
-  "author": "https://github.com/selemxmn/ngx-print/graphs/contributors",
+  "name": "ngx-print-new",
+  "version": "1.0.0-beta1",
+  "description": "Plug n' Play Angular (2+) directive to print your stuff",
+  "author": "https://github.com/pavankjadda/ngx-print-new/graphs/contributors",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/selemxmn/ngx-print.git"
+    "url": "git+https://github.com/pavankjadda/ngx-print-new.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/selemxmn/ngx-print/issues"
+    "url": "https://github.com/pavankjadda/ngx-print-nee/issues"
   },
-  "homepage": "https://github.com/selemxmn/ngx-print#readme",
+  "homepage": "https://github.com/pavankjadda/ngx-print-new#readme",
   "keywords": [
     "print",
     "angular",
