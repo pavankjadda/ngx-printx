@@ -14,6 +14,11 @@
           "options": {
             "tsConfig": "tsconfig.lib.json",
             "project": "ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -40,5 +45,8 @@
       }
     }
   },
-  "defaultProject": "ngx-print"
+  "defaultProject": "ngx-print",
+  "cli": {
+    "analytics": false
+  }
 }
