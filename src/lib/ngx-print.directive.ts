@@ -9,25 +9,25 @@ export class NgxPrintDirective
   /**
    *
    *
-   * @memberof NgxPrintDirective
+   * @member of NgxPrintDirective
    */
   @Input() printSectionId: string;
   /**
    *
    *
-   * @memberof NgxPrintDirective
+   * @member of NgxPrintDirective
    */
   @Input() printTitle: string;
   /**
    *
    *
-   * @memberof NgxPrintDirective
+   * @member of NgxPrintDirective
    */
   @Input() useExistingCss = false;
   /**
    * A delay in milliseconds to force the print dialog to wait before opened. Default: 0
    *
-   * @memberof NgxPrintDirective
+   * @member of NgxPrintDirective
    */
   @Input() printDelay: number = 0;
 
@@ -36,7 +36,7 @@ export class NgxPrintDirective
   /**
    *
    *
-   * @memberof NgxPrintDirective
+   * @member of NgxPrintDirective
    */
   @Input()
   set printStyle(values: { [key: string]: { [key: string]: string } })
@@ -56,12 +56,12 @@ export class NgxPrintDirective
    *
    * @returns html for the given tag
    *
-   * @memberof NgxPrintDirective
+   * @member of NgxPrintDirective
    */
   private _styleSheetFile = '';
 
   /**
-   * @memberof NgxPrintDirective
+   * @member of NgxPrintDirective
    * @param cssList
    */
   @Input()
@@ -91,7 +91,7 @@ export class NgxPrintDirective
    *
    * -join/replace to transform an array objects to css-styled string
    *
-   * @memberof NgxPrintDirective
+   * @member of NgxPrintDirective
    */
   public returnStyleValues()
   {
@@ -101,7 +101,7 @@ export class NgxPrintDirective
   /**
    *
    *
-   * @memberof NgxPrintDirective
+   * @member of NgxPrintDirective
    */
   @HostListener('click')
   public print(): void
